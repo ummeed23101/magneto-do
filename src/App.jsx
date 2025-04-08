@@ -2,7 +2,7 @@ import { useState } from "react";
 import { TodoCard } from "./components/TodoCard";
 import { TodoInput } from "./components/TodoInput";
 import { TodoTabs } from "./components/TodoTabs";
-import logo from "./assets/logo-magnetodo.png";
+import logo from "./assets/logo.png";
 
 function App() {
   const [todos, setTodos] = useState([
